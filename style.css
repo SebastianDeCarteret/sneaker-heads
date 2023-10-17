@@ -27,3 +27,56 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+@font-face {
+  font-family: tilt-neon;
+  src: url(./TiltNeon-Regular.ttf);
+}
+body {
+  font-family: tilt-neon;
+  font-size: 20px;
+  background-image: url(./images/background.jfif);
+  background-size: 25vw;
+  background-position-y: 70px;
+  background-color: rgb(22, 22, 22);
+}
+
+.header-centre-style {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 5px;
+  background-color: rgb(243, 183, 106);
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.no-link-style-header {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+.centre-box-paragraph {
+  text-align: center;
+  background-color: #4edd69;
+  border-radius: 10px;
+  padding: 10px;
+  color: #000000;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.second-paragraph {
+  background-color: #00d1c7;
+  color: #000000;
+}
+
+.images {
+  width: 50vw;
+  align-self: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
